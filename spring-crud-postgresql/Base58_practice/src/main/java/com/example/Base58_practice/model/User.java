@@ -17,23 +17,17 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name= "first_name")
-    private String firstName;
-
-    @Column(name= "last_name")
-    private String lastName;
-
     @Column(name = "email")
     private String email;
 
-    @Column(name = "phone")
-    private String phone;
+    @Column(name= "username")
+    private String username;
 
-    public User(String firstName, String lastName, String email, String phone) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+
+    public User(String username, String email) {
+        this.username = username;
         this.email = email;
-        this.phone = phone;
+
     }
 
 

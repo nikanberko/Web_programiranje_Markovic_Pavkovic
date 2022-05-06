@@ -6,16 +6,10 @@ import lombok.Data;
 @Data
 public class UserDto {
 
-    @JsonProperty("firstName")
-    private String firstName;
-
-    @JsonProperty("lastName")
-    private String lastName;
+    @JsonProperty("username")
+    private String username;
 
     @JsonProperty("email")
     private String email;
-
-    @JsonProperty("phone")
-    private String phone;
 
 }
