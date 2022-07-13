@@ -1,0 +1,14 @@
+#header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #0c0c0c;
+  }
+
+  #title {
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
